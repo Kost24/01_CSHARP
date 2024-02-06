@@ -20,3 +20,10 @@ double produck3 = i1 * d1;
 Console.WriteLine(produck1);
 Console.WriteLine(produck2);
 Console.WriteLine(produck3);
+
+int quotient = i1 / i2;
+Console.WriteLine(quotient);
+
+d1 = 6;
+double quotient2 = i1 / d1;
+Console.WriteLine(quotient2);

@@ -15,14 +15,15 @@ if ( number > 99 && number < 1000)
 {
   int midldigit = number % 100 /10;
   int rightDigit = number % 10;
-  int i = 0;
+  //int i = 0;
   int result = 1;
-  while (i < ritdigit)
-  {
-    result = result * midldigit;
-    i ++;
 
-  }
+    for (; rightDigit > 0; rightDigit --)
+    {
+        result *= midldigit;
+    }
+
+  
   System.Console.WriteLine(result);
 }
 else 

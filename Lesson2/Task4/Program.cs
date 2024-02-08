@@ -6,13 +6,19 @@
 // 7812 => 8
 // 91 => Третьей цифры нет
 
-System.Console.Write("Введите трехзначное число");
-int number = Convert.ToInt32(Console. ReadLine());
+System.Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
 if (number > 99)
 {
-    int result = number % 1000 / 100;
-    System.Console.WriteLine(result);
+    while (number > 999)
+    {
+        number /= 10;
+    }
+    System.Console.WriteLine(number % 10);
+
+    // int result = number % 1000 / 100;
+    // System.Console.WriteLine(result);
 }
 else
 {

@@ -23,6 +23,12 @@ if ( number > 99 && number < 1000)
         result *= midldigit;
     }
 
+//     while (i < rightDigit)
+//   {
+//     result = result * midldigit;
+//     i ++;
+
+//   }
   
   System.Console.WriteLine(result);
 }

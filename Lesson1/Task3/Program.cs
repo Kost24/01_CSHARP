@@ -7,5 +7,5 @@ Console.WriteLine(a);
 }
 else 
 {
-    Console.WriteLine(b);
+ Console.WriteLine(b);
 }

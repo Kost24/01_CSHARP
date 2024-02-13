@@ -36,3 +36,5 @@ else
 {
     System.Console.WriteLine("Ввели не трехзначное число");
 }
+
+
